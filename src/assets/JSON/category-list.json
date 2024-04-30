@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    }, {
+      "id": 4,
+      "name": "Electronics",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 5,
+      "name": "Clothing",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 6,
+      "name": "Books",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    } ,{
+      "id": 7,
+      "name": "Electronics",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 8,
+      "name": "Clothing",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 9,
+      "name": "Books",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    } ,{
+      "id": 10,
+      "name": "Electronics",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 11,
+      "name": "Clothing",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 12,
+      "name": "Books",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    }, {
+      "id": 13,
+      "name": "Electronics",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 14,
+      "name": "Clothing",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 15,
+      "name": "Books",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    } ,{
+      "id": 16,
+      "name": "Electronics",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 17,
+      "name": "Clothing",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 18,
+      "name": "Books",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 19,
+      "name": "Clothing",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 20,
+      "name": "Books",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    } ,{
+      "id": 21,
+      "name": "Electronics",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 23,
+      "name": "Clothing",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    },
+    {
+      "id": 22,
+      "name": "z",
+      "isActive": true,
+      "createdAt": "2024-04-15T14:01:16.597"
+    }
+
+  ],
+  "totalRecords": 23,
+  "filteredRecords": 3
+}
