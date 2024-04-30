@@ -166,5 +166,25 @@ export class CustomPaginationComponent implements OnInit {
     });
   }
 
+  selectedList2: any[] = [
+    { value: '1' },
+    { value: '2' },
+    { value: '3' },
+  ];
+
+  SelectedNumber() {
+    this.pagesize.emit(this.selectedNumber)
+    const previousPageSize = this.pageSize;
+    const previousSkip = this.skip;
+    this.pageSize = this.selectedNumber;
+    this.skip = Math.floor(previousSkip / previousPageSize) * this.pageSize;
+    this.limit = this.skip + this.pageSize;
+    this.pagination.tablePageSize.next({
+      skip: this.skip,
+      limit: this.limit,
+      pageSize: this.pageSize,
+    });
+  }
+
 
 }

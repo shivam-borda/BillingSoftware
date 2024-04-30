@@ -10,16 +10,16 @@
       {{ totalData }} Results
     </div>
 
-   
+
 
     <div class="col-sm-12 col-md-7">
       <div class="pagination_section">
-        <div>
-          <select id="inputCountry" class="form-select" [(ngModel)]="selectedNumber" (ngModelChange)="onSelectpazesize()">
-            <option [ngValue]="null" disabled [selected]="selectedNumber === null">Page Size Options</option>
-            <option *ngFor="let num of numbers" [ngValue]="num">{{num}}</option>
-        </select>
-        </div>
+        <mat-select [(ngModel)]="selectedNumber" [ngModelOptions]="{standalone: true}" class="space-select select"
+          placeholder="Choose Brand" (selectionChange)="SelectedNumber()">
+          <mat-option *ngFor="let data of selectedList2" [value]="data.value">
+            {{ data.value }}
+          </mat-option>
+        </mat-select>
         <ul class="pagination">
           <li class="page-item" [ngClass]="{
               disabled: currentPage === 1
@@ -76,5 +76,5 @@
       </div>
     </div>
   </div>
-  
+
 </div>
